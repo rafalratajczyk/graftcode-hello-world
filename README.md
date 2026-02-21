@@ -4,6 +4,7 @@ Prerequisites
 - Graftcode Gateway (gg) installed and available in PATH
 - A valid Project Key from the Graftcode Portal
 
+
 1. From the project root directory:
 cd HelloService
 dotnet publish -c Release
