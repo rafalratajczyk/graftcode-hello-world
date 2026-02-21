@@ -5,14 +5,14 @@ Prerequisites
 - A valid Project Key from the Graftcode Portal
 
 
-1. From the project root directory:
+1.From the project root directory:
 cd HelloService
 dotnet publish -c Release
 
 This will generate the compiled assembly at:
 bin/Release/net9.0/publish/HelloService.dll
 
-2. Run the Gateway and point it directly to the compiled .dll:
+2.Run the Gateway and point it directly to the compiled .dll:
 
 gg --projectKey YOUR_PROJECT_KEY \
    --modules ./HelloService/bin/Release/net9.0/publish/HelloService.dll
